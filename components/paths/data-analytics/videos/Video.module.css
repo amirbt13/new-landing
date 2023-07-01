@@ -1,0 +1,133 @@
+.container {
+  font-family: IRANSansX, Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 80px auto;
+  padding: 50px 0 100px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.286);
+}
+.container h1 {
+  font-size: 2.5rem;
+}
+.subContainer {
+  margin-top: 20px;
+  min-height: 543px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr;
+  border: 1px solid rgba(128, 128, 128, 0.286);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.media {
+  padding: 10px;
+}
+.media video {
+  width: 100%;
+  border-radius: 12px;
+}
+.info {
+  margin: 10px;
+  display: flex;
+}
+.info > div:first-child img {
+  width: 120px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 1px dashed rgb(136, 136, 136);
+  padding: 2px;
+}
+.info li {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.info li > img {
+  width: 15px;
+  margin-left: 3px;
+}
+.info ul {
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+.sideBar {
+  grid-row-start: 1;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1px;
+}
+.sideBar > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+.sideBar > div:hover {
+  background-color: #00ab9f;
+}
+.current {
+  background-color: #47bfb7 !important;
+  cursor: default !important;
+}
+.current h2 {
+  text-decoration: none !important;
+}
+.current::before {
+  content: " ";
+  background-color: #47bfb7;
+  position: absolute;
+  bottom: -9px;
+  width: 10px;
+  height: 10px;
+  border-radius: 0 0 50% 50%;
+}
+.sideBar h2 {
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 3px;
+  /* text-decoration: underline; */
+}
+@media (min-width: 480px) {
+  .sideBar h2 {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 830px) {
+  .container {
+    margin: 0px auto;
+  }
+  .subContainer {
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .sideBar {
+    grid-row-start: initial;
+    grid-template-columns: 1fr;
+    row-gap: 1px;
+  }
+  .sideBar h2 {
+    font-size: 1rem;
+  }
+  .media video {
+    width: 90%;
+  }
+  .current::before {
+    content: " ";
+    background-color: #47bfb7;
+    position: absolute;
+    right: -30px;
+    bottom: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 0 50% 50% 0;
+  }
+}

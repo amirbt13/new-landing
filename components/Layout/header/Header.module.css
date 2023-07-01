@@ -1,0 +1,187 @@
+.container {
+  position: relative;
+  font-family: IRANSansX, Arial, Helvetica, sans-serif;
+}
+.subContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.286);
+  position: fixed;
+  width: 100%;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+/* .subContainerBurger {
+  position: fixed !important;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  z-index: 100;
+} */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 120px;
+}
+.burger {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+
+  padding: 20px;
+}
+.burgerShow {
+  background-color: #46bfb4;
+  color: #fff;
+  border-radius: 5px;
+}
+.burger img {
+  width: 20px;
+}
+.burgerShow img {
+  width: 20px;
+}
+.burgerList {
+  /* display: none; */
+  position: fixed;
+  top: -100vh;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  height: 100vh;
+  padding: 30px;
+  transition: top 0.2s ease-in-out;
+}
+.burgerListShow {
+  top: 101px;
+}
+.burgerList .buttons {
+  width: 50%;
+  margin-top: 20px;
+}
+.burgerList h3 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.burgerList p {
+  margin-top: 20px;
+  font-size: 0.6rem;
+  opacity: 0.7;
+}
+.burgerList h4 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.navbar {
+  display: none;
+}
+
+.navbar .links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  column-gap: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+}
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links > a {
+  transition: color, border-bottom 0.1s ease-in-out;
+}
+.links > a:hover {
+  color: #46bfb4;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #46bfb4;
+}
+.links .paths {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.links .paths > img {
+  width: 10px;
+  margin-right: 4px;
+}
+.dropDown {
+  transform: rotateX(90deg);
+
+  width: 10rem;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.487);
+  box-shadow: 0px 1px 4px 1px rgba(128, 128, 128, 0.497),
+    0px -1px 1px rgba(128, 128, 128, 0.11);
+  transition: transform 0.1s ease-in-out;
+}
+.dropDownShow {
+  transform: rotateX(0deg);
+}
+.dropDown div {
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: rgba(128, 128, 128, 0.507); */
+  height: 1px;
+}
+.dropDown a {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.dropDown a:hover {
+  color: #46bfb4;
+  background-color: #46bfb52d;
+}
+.buttons a {
+  padding: 6px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons a:first-child {
+  border: 1px solid rgb(167, 167, 167);
+}
+.buttons a:first-child:hover {
+  border: 1px solid #46bfb4;
+  color: #46bfb4;
+}
+.buttons a:last-child {
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+.buttons a:last-child:hover {
+  background-color: #46bfb4;
+}
+
+@media (min-width: 1024px) {
+  .subContainer {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .navbar {
+    display: block;
+  }
+  .burger {
+    display: none;
+  }
+}

@@ -1,0 +1,76 @@
+.container {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 100px;
+  align-items: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.286);
+}
+.topTitle {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+.topTitle h5 {
+  font-weight: 400;
+}
+.title {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+.media img {
+  width: 100%;
+}
+.items > div {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.items img {
+  margin-left: 10px;
+}
+
+.buttons {
+  margin-top: 40px !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+.buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+
+.buttons a {
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+.buttons a:hover {
+  background-color: #46bfb4;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+  .topTitle {
+    text-align: right;
+    margin-top: 0;
+  }
+  .buttons {
+    width: 50%;
+    margin: 0;
+  }
+}
