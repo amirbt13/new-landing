@@ -23,14 +23,19 @@
   row-gap: 20px;
 }
 .card {
-  height: 180px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   border: 1px solid rgba(128, 128, 128, 0.58);
   border-radius: 5px;
   padding: 20px;
+}
+.card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 .card h6 {
   font-size: 3rem;
@@ -55,6 +60,6 @@
     column-gap: 20px;
   }
   .card {
-    height: 230px;
+    height: 360px;
   }
 }
