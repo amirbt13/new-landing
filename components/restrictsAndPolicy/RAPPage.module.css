@@ -1,0 +1,26 @@
+.container {
+  font-family: IRANSansX, Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 20px auto;
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.286);
+}
+.subContainer {
+  margin: 40px 0;
+}
+.subContainer ul {
+  padding: 10px 0;
+  list-style-type: disc;
+}
+.subContainer li {
+  margin-right: 10px;
+}
+.subContainer div {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}

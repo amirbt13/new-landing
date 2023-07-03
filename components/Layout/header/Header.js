@@ -69,8 +69,8 @@ const Header = () => {
             </Link>
           </div>
           <div className={styles.buttons}>
-            <Link href="#">ورود</Link>
-            <Link href="#">ثبت نام</Link>
+            <Link href="https://localhost:3000/login">ورود</Link>
+            <Link href="http://localhost:3000/signup">ثبت نام</Link>
           </div>
         </div>
         <div className={styles.navbar}>
@@ -103,8 +103,8 @@ const Header = () => {
             <Link href="/home/employer-info">برای کارفرمایان</Link>
 
             <div className={styles.buttons}>
-              <Link href="#">ورود</Link>
-              <Link href="#">ثبت نام</Link>
+              <Link href="http://localhost:3000/login">ورود</Link>
+              <Link href="http://localhost:3000/signup">ثبت نام</Link>
             </div>
           </div>
         </div>

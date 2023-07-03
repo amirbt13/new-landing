@@ -10,10 +10,13 @@ const Footer = () => {
             <p>شرکت کلاسور</p>
           </li>
           <li>
-            <Link href="#">درباره ما</Link>
+            <Link href="/home/about-us">درباره ما</Link>
           </li>
           <li>
-            <Link href="#">قوانین و مقررات</Link>
+            <Link href="/home/contact-us">تماس با ما</Link>
+          </li>
+          <li>
+            <Link href="/home/restrictions-and-policy">قوانین و مقررات</Link>
           </li>
           <li>
             <Link href="#">وبلاگ</Link>
@@ -27,13 +30,13 @@ const Footer = () => {
             <Link href="#">دیدکلی</Link>
           </li>
           <li>
-            <Link href="#">دیدکلی</Link>
+            <Link href="#">دیجیتال مارکتینگ</Link>
           </li>
           <li>
-            <Link href="#">دیدکلی</Link>
+            <Link href="#">تحلیل داده</Link>
           </li>
           <li>
-            <Link href="#">دیدکلی</Link>
+            <Link href="#">بازاریابی و فروش</Link>
           </li>
         </ul>
         <ul>
@@ -49,9 +52,7 @@ const Footer = () => {
           <li>
             <Link href="#">شغل های تکنولوژی</Link>
           </li>
-          <li>
-            <Link href="#">محاسبه حقوق</Link>
-          </li>
+
           <li>
             <Link href="#">دورکاری</Link>
           </li>

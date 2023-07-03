@@ -49,8 +49,8 @@ const GotTalent = () => {
           </div>
         </div>
         <div className={styles.buttons}>
-          <Link href="#">ثبت نام</Link>
-          <Link href="#">بیشتر بدانید</Link>
+          <Link href="http://localhost:3000/signup">ثبت نام</Link>
+          <Link href="/home/user-info">بیشتر بدانید</Link>
         </div>
       </div>
     </div>

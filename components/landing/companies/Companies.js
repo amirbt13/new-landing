@@ -30,6 +30,32 @@ const Companies = () => {
           <img src="/images/Frame_38.png" alt="logo" />
         </div>
       </div>
+      <div className={styles.logosTwo}>
+        <div>
+          <img src="/images/Frame_31.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_32.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_33.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_34.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_35.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_36.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_37.png" alt="logo" />
+        </div>
+        <div>
+          <img src="/images/Frame_38.png" alt="logo" />
+        </div>
+      </div>
       {/* <div className={styles.box}>s</div> */}
     </div>
   );

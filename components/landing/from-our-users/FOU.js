@@ -13,7 +13,7 @@ const FOU = () => {
         <div className={styles.card}>
           <div>
             <div>
-              <img src="" alt="commentor" />
+              <img src="/images/nadia.PNG" alt="commentor" />
               <p>نادیا بهنیا</p>
             </div>
             <h6>،،</h6>

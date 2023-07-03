@@ -1,0 +1,20 @@
+.container {
+  font-family: IRANSansX, Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 20px auto;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.286);
+  padding: 100px 0;
+}
+.container h1 {
+  margin-bottom: 30px;
+}
+.container p {
+  line-height: 1.9rem;
+  text-align: justify;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}

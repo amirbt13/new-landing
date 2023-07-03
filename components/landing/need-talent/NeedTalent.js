@@ -48,8 +48,8 @@ const NeedTalent = () => {
           </div>
         </div>
         <div className={styles.buttons}>
-          <Link href="#">بیشتر بدانید</Link>
-          <Link href="#">ثبت نام</Link>
+          <Link href="/home/employer-info">بیشتر بدانید</Link>
+          <Link href="http://localhost:3000/signup">ثبت نام</Link>
         </div>
       </div>
       <div className={styles.media}>

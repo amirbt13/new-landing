@@ -12,8 +12,8 @@ const Banner = () => {
           <h2>یاد بگیر، تجربه کسب کن، تو بهترین شرکت ها استخدام شو</h2>
         </div>
         <div className={styles.bannerBtns}>
-          <Link href="#">استخدام کن</Link>
-          <Link href="#">استخدام شو</Link>
+          <Link href="http://localhost:3000/signup">استخدام کن</Link>
+          <Link href="http://localhost:3000/signup">استخدام شو</Link>
         </div>
       </div>
       <div className={styles.media}>
